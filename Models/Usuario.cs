@@ -20,7 +20,7 @@ namespace Bibliotec.Models
         // Criação do atributo
         // Eu falo pra esse atributo que ele é uma Fk (ForeignKey)
         [ForeignKey("Curso")]
-        public int CursoId { get; set; }
+        public int? CursoId { get; set; }
         public Curso? Curso { get; set; }
     }
 }

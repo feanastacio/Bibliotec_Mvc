@@ -29,7 +29,7 @@ namespace Bibliotec.Contexts
             //  User Id e Passoword => Informações de acesso ao servidor do banco de dados 
             {
                 optionsBuilder.UseSqlServer(@"Data Source= NOTE23-S28; 
-                Initial Catalog = Bibliotec; 
+                Initial Catalog = Bibliotec_mvc; 
                 User Id=sa; Password=abc123; 
                 Integrated Security=true; 
                 TrustServerCertificate = true");
