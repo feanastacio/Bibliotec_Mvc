@@ -1,10 +1,5 @@
-/* _content/Bibliotec/Views/Livro/Cadastro.cshtml.rz.scp.css */
-/* _content/Bibliotec/Views/Livro/Detalhes.cshtml.rz.scp.css */
-/* _content/Bibliotec/Views/Livro/Editar.cshtml.rz.scp.css */
-/* _content/Bibliotec/Views/Livro/Index.cshtml.rz.scp.css */
-/* _content/Bibliotec/Views/Login/Index.cshtml.rz.scp.css */
 /******************* Fornmulário de Login *******************/
-.bk-login[b-bsnrxrgv4h] {
+.bk-login {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +12,7 @@
     background-position: right top;
   }
   
-  .form-box[b-bsnrxrgv4h] {
+  .form-box {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -50,7 +45,7 @@
     overflow: auto;
   }
   
-  .form-box h1[b-bsnrxrgv4h] {
+  .form-box h1 {
     width: 100%;
     font-size: 30px;
     font-weight: bold;
@@ -58,11 +53,11 @@
   }
   
   
-  .formulario .frm-label[b-bsnrxrgv4h] {
+  .formulario .frm-label {
     font-weight: bold;
     margin-bottom: 10px;
   }
-  .formulario .frm-input[b-bsnrxrgv4h] {
+  .formulario .frm-input {
     height: 50px;
     padding: 10px;
     font-size: 18px;
@@ -73,11 +68,11 @@
   }
   
   
-  .formulario .frm-input:first-of-type[b-bsnrxrgv4h] {
+  .formulario .frm-input:first-of-type {
     margin-bottom: 40px;
   }
   
-  .formulario .esqueci-senha[b-bsnrxrgv4h] {
+  .formulario .esqueci-senha {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -87,7 +82,7 @@
     font-weight: 500;
   }
   
-  .formulario .btn-entrar[b-bsnrxrgv4h] {
+  .formulario .btn-entrar {
     width: 100%;
     height: 50px;
     margin-top: 30px;
@@ -103,7 +98,7 @@
     border: none;
   }
   
-  .formulario .btn-entrar:hover[b-bsnrxrgv4h] {
+  .formulario .btn-entrar:hover {
     background-color: #2fd6cb;
     border: none;
     color: black;
@@ -111,31 +106,3 @@
   }
   
   
-/* _content/Bibliotec/Views/Shared/_Layout.cshtml.rz.scp.css */
-/* _content/Bibliotec/Views/Usuario/Index.cshtml.rz.scp.css */
-.conteudo_principal[b-161fjyqyo5] {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    align-items: center;
-
-}
-
-.conteudo[b-161fjyqyo5] {
-    display: flex;
-    margin-top: 10px;
-}
-
-.conteudo p[b-161fjyqyo5] {
-    margin-left: 10px;
-}
-
-.linha[b-161fjyqyo5] {
-    background-color: #2fd6cb;
-    width: 50%;
-    height: 3px;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
